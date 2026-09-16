@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f172a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 30px;
+}
+
+body  h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 2.2rem;
+    text-shadow: 0 0 15px rgba(59, 130, 246, .6);
+}
+
+.forms {
+    width: 100%;
+    max-width: 500px;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255,255,255,.15);
+    border-radius: 25px;
+    padding: 35px;
+    box-shadow:
+        0 15px 35px rgba(0,0,0,.4),
+        0 0 25px rgba(59,130,246,.15);
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.forms label {
+    color: #e2e8f0;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.forms input {
+    padding: 14px;
+    border: 2px solid transparent;
+    border-radius: 12px;
+    background: rgba(255,255,255,.1);
+    color: white;
+    font-size: 15px;
+    transition: .3s;
+}
+
+.forms input::placeholder {
+    color: #94a3b8;
+}
+
+.forms input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 15px rgba(59,130,246,.4);
+}
+
+#btn-enviar {
+    margin-top: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#btn-enviar:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(59,130,246,.4);
+}
+
+#btn-enviar:active {
+    transform: scale(.97);
+}
+
+.resultado {
+    width: 100%;
+    max-width: 500px;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255,255,255,.15);
+    border-radius: 25px;
+    padding: 25px;
+    text-align: center;
+    color: white;
+    box-shadow:
+        0 15px 35px rgba(0,0,0,.4),
+        0 0 25px rgba(59,130,246,.15);
+}
+
+#mensagem {
+    color: #60a5fa;
+    margin-bottom: 15px;
+}
+
+#mensagem1 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #f8fafc;
+}

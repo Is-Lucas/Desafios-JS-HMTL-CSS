@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1</title>
+    <link rel="stylesheet" href="css/desafio1.css">
+</head>
+
+<body>
+    <h1>1° Desafio de pratica de DOM JS</h1>
+    <form action="#" class="forms">
+        <label for="aluno">Insira seu nome completo</label>
+        <input type="text" id="aluno" name="aluno" required placeholder="Insira seu nome...">
+        <label for="media">Média obtida</label>
+        <input type="number" id="media" name="media" required placeholder="Insira sua média..." min="0" max="10" step="0.01">
+        <label for="frequencia">Frequência obtida</label>
+        <input type="number" id="frequencia" name="Frequencia" required placeholder="Insira sua frequência" min="0" max="100" step="1">
+        <button type="submit" id="btn-enviar">Enviar</button>
+    </form>
+    <div class ="resultado">
+        <h1 id="mensagem">Resultado</h1>
+        <p id="mensagem1"></p>
+        
+    </div>
+
+
+    <script src="js/desafio1.js"></script>
+</body>
+
+</html>
+
