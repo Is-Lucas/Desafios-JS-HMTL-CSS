@@ -1,22 +1,36 @@
 # Desafios web
 
-Exercícios feitos em aula para praticar **HTML, CSS e JavaScript**. Cada desafio fica em uma página própria, de `Desafio1.html` a `Desafio10.html`.
+<sub>IS-LUCAS · HTML · CSS · JAVASCRIPT</sub>
 
-## Como abrir
+## Sobre
 
-1. Baixe o repositório em **Code → Download ZIP** e extraia a pasta.
-2. Abra um dos arquivos `Desafio*.html` no navegador.
-3. Mantenha as pastas `css/` e `js/` junto dos arquivos HTML para os estilos e scripts carregarem.
+Dez páginas de desafios feitos em aula para juntar HTML, CSS e JavaScript na prática. Cada exercício tem seus próprios arquivos de estilo e script.
 
-## Organização
+## Tecnologias
 
-| Arquivos | Conteúdo |
+HTML · CSS · JavaScript
+
+## Conteúdo
+
+| Caminho | Conteúdo |
 | --- | --- |
-| `Desafio1.html` a `Desafio10.html` | Páginas dos exercícios |
-| `css/` | Estilos das páginas |
+| `Desafio1.html` a `Desafio10.html` | Páginas dos desafios |
+| `css/` | Estilos de cada página |
 | `js/` | Scripts dos desafios |
 
-São atividades de estudo do curso de Desenvolvimento de Sistemas. Vou reunindo aqui o que pratico nas aulas.
+Comece por [Desafio1.html](Desafio1.html) e abra as outras páginas para explorar os exercícios.
+
+## Como executar
+
+1. Baixe o repositório em **Code → Download ZIP** e extraia a pasta.
+2. Abra `Desafio1.html` no navegador.
+3. Mantenha as pastas de estilos, scripts e imagens junto dos arquivos HTML.
+
+Não é necessário instalar dependências.
+
+## Contexto
+
+Atividade de estudo do curso de Desenvolvimento de Sistemas. Este repositório reúne a prática feita nas aulas.
 
 ---
-[← Perfil do Lucas](https://github.com/Is-Lucas)
+[Isaias Lucas](https://github.com/Is-Lucas) · Desenvolvimento de Sistemas
